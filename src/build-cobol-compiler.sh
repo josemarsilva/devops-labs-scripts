@@ -14,3 +14,6 @@ echo "cobc -free -x -o $1 $2"
 echo ""
 
 cobc -free -x -o $1 $2
+
+echo ""
+ls -la $1

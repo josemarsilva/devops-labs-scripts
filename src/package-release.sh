@@ -10,7 +10,10 @@ if [ -z "$1" ] && [ -z "$2" ]; then
 	exit 1
 fi
 
-echo ""
+echo "cp $1 $2"
 echo ""
 
-cobc -free -x -o $1 $2
+cp $1 $2
+
+echo ""
+ls -la $2
