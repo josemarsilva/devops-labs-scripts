@@ -13,9 +13,8 @@ if [ -z "$1" ] && [ -z "$2" ]; then
 fi
 
 echo "cobc -free -x -o $1 $2"
-echo ""
-
 cobc -free -x -o $1 $2
 
-echo ""
+echo "changing permission ..."
+chmod 777 $1
 ls -la $1

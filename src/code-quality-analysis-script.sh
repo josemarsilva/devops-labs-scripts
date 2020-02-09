@@ -25,6 +25,7 @@ declare    MAX_NESTING_CODE=""
 echo $MAX_NESTING > 2.tmp
 echo $MAX_NESTING_CODE > 1.tmp
 grep -n 'IF \|END-IF' $1 | while read line; do
+	echo "$line"
 	# increment or decrement nesting ...
 	if [[ $line =~ "END-IF" ]]; then
 		((CURRENT_NESTING--))
@@ -43,7 +44,9 @@ MAX_NESTING=`cat 2.tmp`
 rm 1.tmp
 rm 2.tmp
 
-# reporting ...
+#
+# Step-99 - reporting ...
+#
 echo "report.source-filename=$1"   >  $2
 echo "report.analysis-filename=$2" >> $2
 dt=$(date '+%Y-%m-%d %H:%M:%S');
@@ -51,3 +54,4 @@ echo "report.date-time=$dt" >> $2
 echo "report.analysis.algorithm-comlexity.nesting-if-end-if.value=$MAX_NESTING" >> $2
 echo "report.analysis.algorithm-comlexity.nesting-if-end-if.code=$MAX_NESTING_CODE" >> $2
 
+chmod 777 $2
