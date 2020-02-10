@@ -3,7 +3,7 @@
 # command line arguments ...
 
 echo ""
-echo "BUILD - Promote Package Release to environment ..."
+echo "DEPLOY - Promote Package Release to environment ..."
 echo ""
 
 if [ "$1" = "" ]; then

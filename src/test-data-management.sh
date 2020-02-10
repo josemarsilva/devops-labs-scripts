@@ -3,7 +3,7 @@
 # command line arguments ...
 
 echo ""
-echo "BUILD - Test Data Management ..."
+echo "DEPLOY - Test Data Management ..."
 echo ""
 
 if [ "$1" = "" ]; then
@@ -32,4 +32,5 @@ touch log.dat
 
 ls -la count.dat log.dat
 
+echo ""
 

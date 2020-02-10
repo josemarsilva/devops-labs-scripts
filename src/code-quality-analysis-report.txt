@@ -1,5 +1,5 @@
-report.source-filename=cobol-hello-world.cbl
+report.source-filename=./src/cobol-hello-world.cbl
 report.analysis-filename=code-quality-analysis-report.txt
-report.date-time=2020-02-09 16:21:56
-report.analysis.algorithm-comlexity.nesting-if-end-if.value=0
-report.analysis.algorithm-comlexity.nesting-if-end-if.code=
+report.date-time=2020-02-09 17:48:11
+report.analysis.algorithm-comlexity.nesting-if-end-if.value=2
+report.analysis.algorithm-comlexity.nesting-if-end-if.code=108: IF IND GREATER 1000

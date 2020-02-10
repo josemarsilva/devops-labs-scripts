@@ -39,3 +39,5 @@ chmod 777 ./*
 pwd
 ls -la
 
+echo ""
+

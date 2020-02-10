@@ -3,7 +3,7 @@
 # command line arguments ...
 
 echo ""
-echo "BUILD - Test Run - Integration Test ..."
+echo "DEPLOY - Test Run - Integration Test ..."
 echo ""
 
 if [ "$1" = "" ]; then
@@ -27,7 +27,7 @@ echo ""
 echo "Running Integration Test Case ..."
 echo
 
-TEST_CASE_NAME="Test-Case-I01"
+TEST_CASE_NAME="Test-Case-I-01"
 TEST_CASE_DESCRIPTION="Verificar se quantidade de linhas do arquivo 'log.dat' corresponde a contagem de linhas do conteudo do arquivo 'count.dat'"
 TEST_CASE_STEP="Step-01: run programa './cobol-hello-world.exe'"
 

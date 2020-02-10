@@ -3,7 +3,7 @@
 # command line arguments ...
 
 echo ""
-echo "BUILD - Test Run - Unit-test ..."
+echo "DEPLOY - Test Run - Unit-test ..."
 echo ""
 
 if [ "$1" = "" ]; then
@@ -27,7 +27,7 @@ echo ""
 echo "Running Unit Test Case ..."
 echo
 
-TEST_CASE_NAME="Test-Case-U01"
+TEST_CASE_NAME="Test-Case-U-01"
 TEST_CASE_DESCRIPTION="Verificar se na saida sysout do programa 'hello-cobol-world.exe' contem 'Hello'"
 TEST_CASE_STEP="Step-01: run programa './cobol-hello-world.exe'"
 
@@ -52,3 +52,5 @@ if [ "$CONTAINS_STRING" == "0" ]; then
 fi
 
 echo "TEST_CASE_RETURN......: SUCCESS!"
+echo ""
+
