@@ -17,4 +17,5 @@ cobc -free -x -o $1 $2
 
 echo "changing permission ..."
 chmod 777 $1
+pwd
 ls -la $1

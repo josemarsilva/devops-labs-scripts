@@ -55,3 +55,7 @@ echo "report.analysis.algorithm-comlexity.nesting-if-end-if.value=$MAX_NESTING" 
 echo "report.analysis.algorithm-comlexity.nesting-if-end-if.code=$MAX_NESTING_CODE" >> $2
 
 chmod 777 $2
+pwd
+ls -la
+
+

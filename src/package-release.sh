@@ -25,7 +25,7 @@ cp $3 $1
 # adjusting permissions ...
 chmod a+rw $1/*
 
-
-echo ""
+# list package released ...
+pwd
 ls -la $1
 
