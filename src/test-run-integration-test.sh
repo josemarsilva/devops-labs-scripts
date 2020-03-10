@@ -29,14 +29,14 @@ echo
 
 TEST_CASE_NAME="Test-Case-I-01"
 TEST_CASE_DESCRIPTION="Verificar se quantidade de linhas do arquivo 'log.dat' corresponde a contagem de linhas do conteudo do arquivo 'count.dat'"
-TEST_CASE_STEP="Step-01: run programa './cobol-hello-world.exe'"
+TEST_CASE_STEP="Step-01: run programa './FERR0001.exe'"
 
 echo ""
 echo "TEST_CASE_NAME....... : $TEST_CASE_NAME"
 echo "TEST_CASE_DESCRIPTION : $TEST_CASE_DESCRIPTION"
 echo "TEST_CASE_STEP........: $TEST_CASE_STEP"
 
-PROGRAM_EXECUTION_SYSOUT=`./cobol-hello-world.exe`
+PROGRAM_EXECUTION_SYSOUT=`./FERR0001.exe`
 
 TEST_CASE_STEP="Step-02: Test 'count.dat' vs 'log.dat'"
 echo "TEST_CASE_STEP........: $TEST_CASE_STEP"

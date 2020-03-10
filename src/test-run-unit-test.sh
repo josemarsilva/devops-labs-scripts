@@ -28,15 +28,15 @@ echo "Running Unit Test Case ..."
 echo
 
 TEST_CASE_NAME="Test-Case-U-01"
-TEST_CASE_DESCRIPTION="Verificar se na saida sysout do programa 'hello-cobol-world.exe' contem 'Hello'"
-TEST_CASE_STEP="Step-01: run programa './cobol-hello-world.exe'"
+TEST_CASE_DESCRIPTION="Verificar se na saida sysout do programa 'FERR0001.exe' contem 'Hello'"
+TEST_CASE_STEP="Step-01: run programa './FERR0001.exe'"
 
 echo ""
 echo "TEST_CASE_NAME....... : $TEST_CASE_NAME"
 echo "TEST_CASE_DESCRIPTION : $TEST_CASE_DESCRIPTION"
 echo "TEST_CASE_STEP........: $TEST_CASE_STEP"
 
-PROGRAM_EXECUTION_SYSOUT=`./cobol-hello-world.exe`
+PROGRAM_EXECUTION_SYSOUT=`./FERR0001.exe`
 
 TEST_CASE_STEP="Step-02: Test if SysOut '$PROGRAM_EXECUTION_SYSOUT' contains string 'hello'"
 echo "TEST_CASE_STEP........: $TEST_CASE_STEP"
