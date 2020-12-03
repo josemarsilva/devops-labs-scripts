@@ -53,13 +53,13 @@ Este repositório contém o fonte do programa **devops-labs-scripts**. Conjuntos
 * Passo 01 - Clonar o repositório de scripts
 
 ```sh
-$ git clone https://josemarsilva-inmetrics@bitbucket.org/inmetricsautomacao/devops-labs-scripts.git
+$ git clone https://github.com/josemarsilva/devops-labs-scripts.git
 ```
 
 * Passo 02 - Executar o script desejado
 
 ```sh
-$ ./src/sh/package-cobal-hello-world.sh
+$ ./src/sh/package-cobol-hello-world.sh
 ```
 
 
